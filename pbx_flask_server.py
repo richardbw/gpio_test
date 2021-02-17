@@ -16,6 +16,7 @@ pp = pprint.PrettyPrinter(indent=4)
 
 api = Flask(__name__)
 
+port=1234
 led_state = {"state": False, "pin": 15}
 led = LED(led_state["pin"])
 
@@ -42,7 +43,8 @@ def post_companies():
 
 if __name__ == '__main__':
     log.info("Plug LED leads into no.15 & GRND (eg 9)")
-    api.run(host='0.0.0.0')
+    log.info("port:API path: %s/flip_led" % port)
+    api.run(host='0.0.0.0', port=port)
 
 
 
