@@ -8,12 +8,12 @@ _Check that the connection is the right way around!_
 
 
 Simple LED setup:<br/>
-<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210217_185251.jpg" width="550"/>
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210220_171910.jpg" width="550"/>
 
 
 <br/>
 Simple LED setup, with resistor:<br/>
-<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210217_185640.jpg" width="550"/>
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210220_171927.jpg" width="550"/>
 
 <br/>
 Simple PIR setup:<br/>
@@ -21,5 +21,6 @@ Simple PIR setup:<br/>
 - VCC is on left/red, to 5V
 - GND is on rght/grey, to '-'
 - OUT is centre/brown, to GPIO14
-<br/><img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210220_155255.jpg" width="550"/>
+<br/>
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210220_155255.jpg" width="550"/>
 
