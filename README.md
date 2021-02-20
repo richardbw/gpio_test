@@ -17,7 +17,7 @@ Simple LED setup, with resistor:<br/>
 
 <br/>
 Simple PIR setup:<br/>
-*Note* : 
+_Note_: 
 * VCC is on left/red, to 5V
 * GND is on rght/grey, to '-'
 * OUT is centre/brown, to GPIO15
