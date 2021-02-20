@@ -15,7 +15,7 @@ coloredlogs.install(level='DEBUG', logger=log)
 pp = pprint.PrettyPrinter(indent=4)
 
 # simple on/off code: {{{
-#led = LED(15)
+#led = LED(14)
 #for x in range(1,3):
 #    print "On"
 #    led.on()
@@ -48,7 +48,7 @@ def dim(led):
 
 def main():
     try:  
-        led = PWMLED(15)
+        led = PWMLED(14)
         log.info("Reading from GPIO pin: %s" % (led.pin))
         while True:
             brighten(led)

@@ -15,7 +15,7 @@ pp = pprint.PrettyPrinter(indent=4)
 
 
 led_state = True
-led_pin = 15
+led_pin = "GPIO14"  # could also be just 14, but this is clearer
 
 
 log.info("LED GPIO pin: %s"%led_pin)

@@ -7,7 +7,7 @@
 #- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 from    gpiozero    import LED
 from    flask       import Flask, json, Response, jsonify
-import  logging,coloredlogs,sys,pprint,traceback 
+import  logging,coloredlogs,sys,pprint,socket
 
 logging.basicConfig(level=logging.DEBUG)
 log = logging.getLogger(sys.argv[0])
@@ -17,7 +17,7 @@ pp = pprint.PrettyPrinter(indent=4)
 api = Flask(__name__)
 
 port=1234
-led_state = {"state": False, "pin": 15}
+led_state = {"state": False, "pin": 14}
 led = LED(led_state["pin"])
 
 
@@ -42,8 +42,12 @@ def post_companies():
 
 
 if __name__ == '__main__':
-    log.info("Plug LED leads into no.15 & GRND (eg 9)")
-    log.info("port:API path: %s/flip_led" % port)
+    s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+    s.connect(("8.8.8.8", 80))  # get IP address, to show URL https://stackoverflow.com/a/166589
+    log.info("port:API path: http://%s:%s/flip_led" % (s.getsockname()[0], port))
+    s.close()
+
+    log.info("Plug LED leads into no.14 & GRND (eg 8)")
     api.run(host='0.0.0.0', port=port)
 
 
