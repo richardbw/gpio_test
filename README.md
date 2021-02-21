@@ -1,5 +1,7 @@
 # gpio_test
 
+Also [gpiozero basic recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html)
+
 Basic LED convention:
 * GPIO14 (8th pin)
 * GND (eg 9th pin)
