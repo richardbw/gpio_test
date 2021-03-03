@@ -23,7 +23,12 @@ Simple PIR setup:<br/>
 
 - VCC is on left/red, to 5V
 - GND is on rght/grey, to '-'
-- OUT is centre/brown, to GPIO14
+- OUT is centre/brown, to GPIO14 (not like picture, which is ..15)
 <br/>
 <img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210220_155255.jpg" width="550"/>
+
+<br/>
+LightSensor/Light Dependent Resistor(LDR) setup:<br/>
+- Power (red here) is 3V
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210303_115641.jpg" width="550"/>
 
