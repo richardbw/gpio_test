@@ -33,6 +33,7 @@ _Check that the connection is the right way around!_
 
 ##  LDR, with LED that dims in bright light
 (straight from [basic recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html))
+
 <img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210304_101653.jpg" width="550"/> 
 
 
