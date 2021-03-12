@@ -9,7 +9,7 @@ from gpiozero import LightSensor
 
 sensor = LightSensor(14)
 
-print("Starting..")
+print("Starting.. (GPIO14)")
 
 while True:
     sensor.wait_for_light()
