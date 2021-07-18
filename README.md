@@ -40,3 +40,14 @@ _Check that the connection is the right way around!_
 
 
 
+## Ultrasound Distance detection
+Taken from [physical-computing](https://projects.raspberrypi.org/en/projects/physical-computing/12), and layout hints from [pi tutorials](https://tutorials-raspberrypi.com/raspberry-pi-ultrasonic-sensor-hc-sr04/)
+- VCC, Red, 5V/ phys.2
+- GND, Brown, phys.6
+- Trigger, Orange, GPIO14/ phys.8
+- Echo, Yellow, GPIO15/ phys.10
+
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210718_125040.jpg" width="550"/> 
+
+
+
