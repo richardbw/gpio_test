@@ -1,6 +1,15 @@
 <img src="https://img.shields.io/badge/Livin-the%20crazy%20life-brightgreen?logo=github"/>
 
-- [gpio_test](#gpio-test)
+# gpio_test
+
+Also [gpiozero basic recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html)
+
+Basic LED convention:
+* GPIO14 (8th pin)
+* GND (eg 9th pin)
+
+_Check that the connection is the right way around!_
+
   * [Simple LED setup](#simple-led-setup)
   * [Simple LED setup, with resistor:](#simple-led-setup--with-resistor-)
   * [Simple PIR setup](#simple-pir-setup)
@@ -12,16 +21,6 @@
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
-
-# gpio_test
-
-Also [gpiozero basic recipes](https://gpiozero.readthedocs.io/en/stable/recipes.html)
-
-Basic LED convention:
-* GPIO14 (8th pin)
-* GND (eg 9th pin)
-
-_Check that the connection is the right way around!_
 
 
 ## Simple LED setup
