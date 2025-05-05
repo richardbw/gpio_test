@@ -66,7 +66,9 @@ Same as above, with:
 - GPIO4 (7)
 - GND (9)
 
-<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210718_180056.jpg" width="250"/> 
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210718_180056.jpg" width="250"/> <br/>
+Micro:bit version (1κΩ resistor in Echo line; idea taken from [here](https://firialabs.com/blogs/lab-notes/ultrasonic-distance-sensor-with-python-and-the-micro-bit))
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20250505_121631.jpg" width="250"/> 
 
 
 
