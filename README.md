@@ -67,8 +67,13 @@ Same as above, with:
 - GND (9)
 
 <img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210718_180056.jpg" width="250"/> <br/>
-Micro:bit version (1κΩ resistor in Echo line; idea taken from [here](https://firialabs.com/blogs/lab-notes/ultrasonic-distance-sensor-with-python-and-the-micro-bit))
-<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20250505_121631.jpg" width="250"/> 
+### Micro:bit version 
+Idea taken from [here](https://firialabs.com/blogs/lab-notes/ultrasonic-distance-sensor-with-python-and-the-micro-bit)
+- Needed 3 x AAA batteries to boost (2 x batteries is too weak)
+- 1κΩ resistor in Echo line 
+
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20250505_121631.jpg" width="250"/> <br/>
+
 
 
 
