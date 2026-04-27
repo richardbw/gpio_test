@@ -82,6 +82,6 @@ Started out using AI/Gemini code
 - Yellow, TX, GPIO17 (11)    //Orange in the pic
 - White, RX, GPIO18 (12)
 
-<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20260427_154032.jpg" width="250"/> 
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20260427_154032.jpg" width="550"/> 
 
 
