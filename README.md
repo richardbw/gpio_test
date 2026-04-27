@@ -17,9 +17,9 @@ _Check that the connection is the right way around!_
   * [LDR, with LED that dims in bright light](#ldr--with-led-that-dims-in-bright-light)
   * [Ultrasound Distance detection](#ultrasound-distance-detection)
     + [With Buzzer](#with-buzzer)
+  * [M5 unit IR receiver](#m5-unit-ir-receiver-with-lg-tv-remote-scancodes)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 
 
