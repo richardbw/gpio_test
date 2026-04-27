@@ -68,5 +68,13 @@ Same as above, with:
 
 <img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20210718_180056.jpg" width="250"/> 
 
+## M5 unit IR receiver, with LG TV remote scancodes
+Started out using AI/Gemini code
+- Red, 5V/ (phys.2)
+- Black, GND-, (6)
+- Yellow, TX, GPIO17 (11)    //Orange in the pic
+- White, RX, GPIO18 (12)
+
+<img src="https://raw.githubusercontent.com/richardbw/gpio_test/main/img/20260427_154032.jpg" width="250"/> 
 
 
